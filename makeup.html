@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Map</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .clickable-area {
+            position: absolute;
+            border: 2px dashed red; 
+            pointer-events: none; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Interactive Image Map</h1>
+    <p>Click on the areas to visit different Amazon pages for makeup products:</p>
+
+    
+    <div class="image-container">
+        
+        <img src="C:/Users/trinisha/OneDrive/Desktop/1000_F_273553300_sBBxIPpLSn5iC5vC8FwzFh6BJDKvUeaC.jpg" 
+             alt="Sample Image" usemap="#image-map">
+    </div>
+
+    
+    <map name="image-map">
+        <area target="_blank" alt="BLUSH" title="BLUSH" 
+              href="https://www.amazon.in/s?k=makeup+blush&amp;crid=1TN3RCH4YT21L&amp;sprefix=makeup+blu%2Caps%2C394&amp;ref=nb_sb_noss_2" 
+              coords="194,259,25,38" shape="rect">
+        <area target="_blank" alt="FOUNDATION" title="FOUNDATION" 
+              href="https://www.amazon.in/s?k=makeup+foundation&amp;crid=2TA9I6PFLXZ9K&amp;sprefix=makeup+foundation%2Caps%2C353&amp;ref=nb_sb_noss_1" 
+              coords="673,44,132" shape="circle">
+        <area target="_blank" alt="HIGHLIGHTER" title="HIGHLIGHTER" 
+              href="https://www.amazon.in/s?k=makeup+highlighter&amp;crid=3BBM8JNG7ZSOB&amp;sprefix=makeup+high%2Caps%2C311&amp;ref=nb_sb_ss_pltr-xclick_1_11" 
+              coords="865,85,37" shape="circle">
+        <area target="_blank" alt="EYE SHADE" title="EYE SHADE" 
+              href="https://www.amazon.in/s?k=makeup+eye+shade&amp;crid=2R62NMW72BJBT&amp;sprefix=makeup+eye+shade%2Caps%2C323&amp;ref=nb_sb_noss_2" 
+              coords="599,648,882,586" shape="rect">
+        <area target="_blank" alt="LIPSTICK-BABY PINK" title="LIPSTICK-BABY PINK" 
+              href="https://www.amazon.in/s?k=lipstick&amp;crid=2CBGYUU4F6ZUJ&amp;sprefix=lipstick%2Caps%2C321&amp;ref=nb_sb_noss_1" 
+              coords="229,463,303,413" shape="rect">
+        <area target="_blank" alt="EYE SHADOW" title="EYE SHADOW" 
+              href="https://www.amazon.in/s?k=eye+shadow+palette&amp;crid=3DQZF7N34Q7YZ&amp;sprefix=EYE%2Caps%2C377&amp;ref=nb_sb_ss_pltr-xclick_6_3" 
+              coords="95,570,91" shape="circle">
+        <area target="_blank" alt="MAKEUP BRUSH" title="MAKEUP BRUSH" 
+              href="https://www.amazon.in/s?k=makeup+brush&amp;crid=1LG47S33G71N8&amp;sprefix=MAKEUP+%2Caps%2C335&amp;ref=nb_sb_ss_pltr-xclick_4_7" 
+              coords="597,308,557,409" shape="rect">
+    </map>
+</body>
+</html>
